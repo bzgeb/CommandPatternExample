@@ -9,12 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cad5330d2463d44e68a65aa0c805c193, type: 3}
-  m_Name: Cat
+  m_Script: {fileID: 11500000, guid: 6ecee3e00240468a8a6db1af6095c8fc, type: 3}
+  m_Name: FlyCommand
   m_EditorClassIdentifier: 
-  StartingHealth: 20
-  BaseSpeed: 20
-  BaseAttack: 20
-  Weaknesses: []
-  Commands:
-  - {fileID: 11400000, guid: f8f273c922f08454d915bc89c1c70993, type: 2}

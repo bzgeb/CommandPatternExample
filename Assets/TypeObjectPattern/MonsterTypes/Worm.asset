@@ -17,3 +17,5 @@ MonoBehaviour:
   BaseAttack: 1
   Weaknesses:
   - {fileID: 11400000, guid: b04ef7f6d477247669791a51dd9e7011, type: 2}
+  Commands:
+  - {fileID: 11400000, guid: 4544e9183d78c314795243ee2cd0e446, type: 2}
