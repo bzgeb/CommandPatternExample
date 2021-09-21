@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad5330d2463d44e68a65aa0c805c193, type: 3}
+  m_Name: Pidgeon
+  m_EditorClassIdentifier: 
+  StartingHealth: 10
+  BaseSpeed: 5
+  BaseAttack: 15
+  Weaknesses:
+  - {fileID: 11400000, guid: e32a2e440d43344a09243536d98864ee, type: 2}
