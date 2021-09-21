@@ -7,7 +7,7 @@ namespace TypeObjectPattern
     {
         public override void Execute(Monster owner, Monster target)
         {
-            throw new System.NotImplementedException();
+            Debug.Log($"{owner} flew around aimlessly");
         }
     }
 }

@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b52eda5e7aa42798c292ae2fc3b354e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2190aef888fc4423b8dd7bc32a3ee120, type: 3}
   m_Name: ScratchCommand
   m_EditorClassIdentifier: 
+  ConsoleMessage: scratched
