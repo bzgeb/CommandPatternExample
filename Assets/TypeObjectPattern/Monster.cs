@@ -6,6 +6,7 @@ public class Monster : MonoBehaviour
     public int Speed;
     public int Attack;
     public MonsterType Type;
+    public Command[] EquippedCommands;
 
     void Start()
     {

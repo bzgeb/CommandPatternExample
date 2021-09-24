@@ -7,7 +7,13 @@ namespace TypeObjectPattern
     {
         public override void Execute(Monster owner, Monster target)
         {
-            Debug.Log($"{owner} wriggled aggressively");
+            if (!owner.TryGetComponent(out WriggleData data))
+            {
+                data = owner.gameObject.AddComponent<WriggleData>();
+            }
+
+            ++data.Charge;
+            Debug.Log($"{owner}'s wriggle charge reached {data.Charge}");
         }
     }
 }
